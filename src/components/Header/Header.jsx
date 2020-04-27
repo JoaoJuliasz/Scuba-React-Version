@@ -9,7 +9,7 @@ const Header = () => (
             <img className='logo' src={logo} alt="" />
         </Link>
         <p className="email">
-            <i class="fas fa-envelope"></i>
+            <i className="fas fa-envelope"></i>
             <a href="mailto:scubatuba@scubatuba.com.br">scubatuba@scubatuba.com.br</a>
         </p>
         <p className="tel">

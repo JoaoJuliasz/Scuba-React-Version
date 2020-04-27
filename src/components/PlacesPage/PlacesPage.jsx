@@ -1,23 +1,29 @@
 import React from 'react';
 
-import BackArrow from '../BackArrow/BackArrow'
+import BackArrow from '../BackArrow/BackArrow';
+
 class PlacesPage extends React.Component {
     constructor() {
         super();
         this.state = {
             hide: true,
+            imgUrl: 'anchieta 2.jpg',
+            intervalo: 3000,
         }
     }
 
+    componentDidMount() {
+        setTimeout(this.slide2, this.state.intervalo);
+    }
+
     render() {
+        const { imgUrl } = this.state
         return (
             <React.Fragment>
                 <BackArrow />
-
                 <div className="container" >
                     <div className="places">
-                        <img src={require("../../assets/imgs/anchieta.jpg")} alt="" id="banner" />
-
+                        <img src={require(`../../assets/imgs/${imgUrl}`)} alt="" id="banner" />
                         <p className="title">PONTOS DE MERGULHO / VALORES
             </p><br />
                         <p className="only">* Somente para credenciados</p>
@@ -117,6 +123,37 @@ class PlacesPage extends React.Component {
             const hideElem = document.querySelector(`#${elem}`);
             this.state.hide ? hideElem.style.display = 'none' : hideElem.style.display = 'block'
         }
+        )
+    }
+
+    slide1 = () => {
+        this.setState(
+            {
+                imgUrl: 'anchieta 2.jpg'
+            },
+            () => setTimeout(this.slide2, this.state.intervalo)
+        )
+    }
+    slide2 = () => {
+        this.setState({
+            imgUrl: 'praia-cedro.jpg'
+        },
+            () => setTimeout(this.slide3, this.state.intervalo)
+        );
+    }
+
+    slide3 = () => {
+        this.setState({
+            imgUrl: 'barco 4.jpg'
+        },
+            () => setTimeout(this.slide4, this.state.intervalo)
+        )
+    }
+    slide4 = () => {
+        this.setState({
+            imgUrl: 'anchieta.jpg',
+        },
+            () => setTimeout(this.slide1, this.state.intervalo)
         )
     }
 }
