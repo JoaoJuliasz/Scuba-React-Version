@@ -124,7 +124,7 @@ html {
   justify-content: space-around;
 }
 
-.info a {
+.info a, .center a {
   border: 1px solid #fff000;
   border-radius: 3px;
   padding: 10px;
@@ -135,7 +135,7 @@ html {
   transition: 0.4s;
 }
 
-.info a:hover {
+.info a:hover, .center a:hover {
   border: 1px solid #fff000;
   text-decoration: none;
   color: #000;
@@ -345,6 +345,21 @@ html {
 .contact-elem {
   text-decoration: none;
   color: #ffff;
+}
+
+.center {
+  text-align: center;
+  color: #fff;
+}
+
+.center h1 {
+  font-weight: bold;
+    font-size: 55px;
+}
+
+.center a {
+  width: 22%;
+  margin: auto;
 }
 
 @media(max-width:640px) {

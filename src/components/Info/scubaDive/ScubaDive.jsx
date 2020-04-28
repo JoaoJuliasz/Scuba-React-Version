@@ -12,8 +12,7 @@ const Scuba = () => (
                     um profissional da
                     área para quem
                     não tem curso</p>
-                    {/* Aqui vai o Link para o componente */}
-                <Link to='/discover-scuba' >Saiba Mais</Link>
+                <Link to='/discover-scuba'>Saiba Mais</Link>
             </div>
         </div>
 );
