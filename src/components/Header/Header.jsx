@@ -6,7 +6,7 @@ import logo from '../../assets/imgs/logo1.PNG'
 const Header = () => (
     <div className="header">
         <Link to='/'>
-            <img className='logo' src={logo} alt="" />
+            <img className='logo' src={logo} alt="logo" />
         </Link>
         <p className="email">
             <i className="fas fa-envelope"></i>

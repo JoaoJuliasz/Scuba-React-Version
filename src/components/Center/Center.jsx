@@ -17,7 +17,7 @@ class Center extends React.Component {
         const { imgUrl } = this.state;
         return (
             <div className="center">
-                <img src={require(`../../assets/imgs/${imgUrl}`)} alt="" />
+                <img src={require(`../../assets/imgs/${imgUrl}`)} alt='imagens empresa' />
                 <div className="text">
                     <p>
                         Fundada em 2002, A Scubatuba Operadora de Mergulho é um centro de <br /> treinamento 5 Star SDI/TDI
@@ -44,7 +44,7 @@ class Center extends React.Component {
 
     slide2 = () => {
         this.setState({
-            imgUrl: 'corona1.jpeg'
+            imgUrl: 'corona1.jpeg',
         },
             () => setTimeout(this.slide1, this.state.interval)
         )

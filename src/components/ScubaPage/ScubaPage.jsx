@@ -7,7 +7,7 @@ const ScubaPage = () => (
     <React.Fragment>
         <BackArrow />
     <div className="content">
-        <img src={img} alt="" />
+        <img src={img} alt="discover scuba" />
         <p className="price">R$ 450</p>
         <br />
         <p className="title">DISCOVER SCUBA</p>

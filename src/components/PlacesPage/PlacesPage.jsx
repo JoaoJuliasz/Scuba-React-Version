@@ -23,7 +23,7 @@ class PlacesPage extends React.Component {
                 <BackArrow />
                 <div className="container" >
                     <div className="places">
-                        <img src={require(`../../assets/imgs/${imgUrl}`)} alt="" id="banner" />
+                        <img src={require(`../../assets/imgs/${imgUrl}`)} alt="pontos de mergulho" id="banner" />
                         <p className="title">PONTOS DE MERGULHO / VALORES
             </p><br />
                         <p className="only">* Somente para credenciados</p>

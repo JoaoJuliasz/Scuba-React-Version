@@ -16,7 +16,7 @@ class CoursesPage extends React.Component {
             <React.Fragment>
                 <BackArrow />
                 <div className="inside">
-                    <img src={img} alt="" />
+                    <img src={img} alt="aula piscina" />
                     <p className="title"> Cursos de Mergulho</p>
 
                     <p className="warning">* Clique no título do curso para abrir a descrição</p>
@@ -212,7 +212,7 @@ class CoursesPage extends React.Component {
             }
         },
             () => {
-                const hideElem = document.querySelector(`#${elem}`);
+                const hideElem = document.getElementById(`${elem}`);
                 this.state.hide ? hideElem.style.display = 'none' : hideElem.style.display = 'block'
             }
         )

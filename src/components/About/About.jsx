@@ -3,7 +3,7 @@ import IMG from '../../assets/imgs/cilindro.jpg'
 
 const About = () => (
     <div className="about">
-    <img src={IMG} alt=""/>
+    <img src={IMG} alt="cilindros"/>
     <h1>SOBRE NOSSOS SERVIÇOS </h1>
     <p>
             Cursos de mergulho personalizados, com horários conforme a disponibilidade do aluno. <br/>

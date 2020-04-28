@@ -4,7 +4,7 @@ import img from '../../../assets/imgs/anchieta 2.jpg';
 
 const Places = () => (
     <div className="divePlaces">
-        <img src={img} alt="" />
+        <img src={img} alt="lugares para mergulhar" />
         <div className="infos">
             <p className="title">PONTOS DE MERGULHO/<br />VALORES</p>
             <p>Ubatuba conta com excelentes pontos de mergulho.</p>
