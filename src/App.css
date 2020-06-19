@@ -224,7 +224,7 @@ html {
   cursor: pointer;
 }
 
-.content {
+.content, .places, .inside {
   width: 900px;
   margin: 0 auto;
   color: #FFF;
@@ -264,12 +264,6 @@ html {
   font-size: 20px;
 }
 
-.inside {
-  width: 900px;
-  margin: 0 auto;
-  color: #FFF;
-}
-
 .inside img {
   width: 900px;
   height: 500px;
@@ -294,18 +288,13 @@ html {
   font-size: 32px;
 }
 
-.inside .subtitle {
+.inside .subtitle, .places .subtitle {
   font-size: 20px;
+  padding: 15px;
 }
 
 .inside .price {
   font-size: 20px;
-}
-
-.places {
-  width: 900px;
-  margin: 0 auto;
-  color: #FFF;
 }
 
 .places img {
@@ -325,10 +314,6 @@ html {
 
 .places .title {
   font-size: 32px;
-}
-
-.places .subtitle {
-  font-size: 20px;
 }
 
 .places .price {
@@ -565,7 +550,6 @@ html {
   }
   .content img, .inside img, .places img {
     width: 90%;
-    height: 50%;
     display: flex;
   }
   .contact {

@@ -2,9 +2,9 @@ import React from 'react';
 import {Route, Switch} from 'react-router-dom'
 
 import Container from '../Container/Container'
-import ScubaPage from '../ScubaPage/ScubaPage'
-import CoursesPage from '../CoursesPage/CoursesPage'
-import PlacesPage from '../PlacesPage/PlacesPage'
+import ScubaPage from '../../pages/ScubaPage/ScubaPage'
+import CoursesPage from '../../pages/CoursesPage/CoursesPage'
+import PlacesPage from '../../pages/PlacesPage/PlacesPage'
 import ScrollToTop from '../ScrollTop/ScrollTop'
 import NotFound from '../NotFound/NotFound'
 

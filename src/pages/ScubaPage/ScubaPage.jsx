@@ -1,7 +1,7 @@
 import React from 'react';
 
 import img from '../../assets/imgs/site 3.jpg';
-import BackArrow from '../BackArrow/BackArrow'
+import BackArrow from '../../components/BackArrow/BackArrow'
 
 const ScubaPage = () => (
     <React.Fragment>
