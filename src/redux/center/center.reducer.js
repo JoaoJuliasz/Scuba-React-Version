@@ -1,8 +1,8 @@
 import { CHANGE_CENTER_IMG_PATH } from './center.types'
 
 const initialState = {
-    centerImgUrl: 'corona1.jpeg',
-}
+    centerImgUrl: 'slide1.jpg',
+} 
 
 const centerReducer = (state = initialState, action) => {
     switch(action.type){

@@ -35,26 +35,26 @@ html {
   padding-left: 50px;
   padding-top: 15px;
   text-decoration: none;
-  color: #000;
+  color: #2b2b2b;
 }
 
 .email a {
   padding-left: 5px;
   text-decoration: none;
-  color: #000;
+  color: #2b2b2b;
 }
 
 .tel {
   padding-left: 50px;
   padding-top: 15px;
-  color: #000;
+  color: #2b2b2b;
 }
 
 .face {
   padding-left: 50px;
   padding-top: 15px;
   text-decoration: none;
-  color: #000;
+  color: #2b2b2b;
 }
 
 .logo {
@@ -138,7 +138,7 @@ html {
 .info a:hover, .center a:hover {
   border: 1px solid #fff000;
   text-decoration: none;
-  color: #000;
+  color: #2b2b2b;
   background: #fff000;
   opacity: 0.9;
 }

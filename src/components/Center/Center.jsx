@@ -9,15 +9,24 @@ const Center = ({ centerImgUrl, changeImgPath }) => {
     },[])
 
     const slide1 = () => {
-        changeImgPath('corona2.jpeg')
+        changeImgPath('slide1.jpg')
         setTimeout(slide2, interval)
     }
 
     const slide2 = () => {
-        changeImgPath('corona1.jpeg')
+        changeImgPath('slide2.jpg')
+        setTimeout(slide3, interval)
+    }
+    const slide3 = () => {
+        changeImgPath('slide3.jpg')
+        setTimeout(slide4, interval)
+    }
+
+    const slide4 = () => {
+        changeImgPath('slide4.jpg')
         setTimeout(slide1, interval)
     }
-    console.warn(centerImgUrl)
+    
     return (
         <div className="center">
             <img src={require(`../../assets/imgs/${centerImgUrl}`)} alt='imagens empresa' />
