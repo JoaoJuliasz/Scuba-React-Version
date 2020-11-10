@@ -87,7 +87,7 @@ const PlacesPage = ({ imgUrl, changeImgPath, toogleShowDescription }) => {
 
                     Profundidade: de 5 a 40 metros</p> <br />
 
-                        <p className="price">Valor: R$380
+                        <p className="price">Valor: R$420   
                 </p><br />
                     </div>
                     <p className="subtitle" onClick={() => handleClick('hide5')}><u>Cancelamentos</u></p>

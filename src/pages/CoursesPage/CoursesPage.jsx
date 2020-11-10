@@ -29,11 +29,11 @@ const CoursesPage = ({ toogleShowDescription }) => {
                         Os 2 <br />
                         demais dias com saída de barco, no período da manhã, para realizar 4 mergulhos obrigatórios. <br />
                         <br />
-                        Valor: R$1.730 em 3x sem juros + R$180 da credencial. <br />
+                        Valor: R$1.730 em 3x sem juros + R$220 da credencial. <br />
                         <br />
-                        Valor: R$1.320 em 3x sem juros + R$180 da credencial * para mergulhos no píer , sem saída de barco. <br />
+                        Valor: R$1.320 em 3x sem juros + R$220 da credencial * para mergulhos no píer , sem saída de barco. <br />
                         <br />
-                        Valor: R$1.020 em 3x sem juros + R$180 da credencial SOMENTE CHECK-OUT <br />
+                        Valor: R$1.020 em 3x sem juros + R$220 da credencial SOMENTE CHECK-OUT <br />
                         <br />
                         Inclui: material didático, aluguel de todo equipamento durante o curso, 2 saídas de barco com lanche a
                         bordo <br />
@@ -63,9 +63,9 @@ const CoursesPage = ({ toogleShowDescription }) => {
                         profundo,<br />
                         noturno, busca e recuperação, navegação com bússola e multinível.<br />
                         <br />
-                        Valor: R$1.730 em 3x sem juros + R$180 da credencial.<br />
+                        Valor: R$1.730 em 3x sem juros + R$220 da credencial.<br />
                         <br />
-                        Valor: R$1.020 em 3x sem juros + R$180 da credencial SOMENTE CHECK-OUT<br />
+                        Valor: R$1.020 em 3x sem juros + R$220 da credencial SOMENTE CHECK-OUT<br />
                         <br />
                         Inclui: material didático, aluguel do equipamento scuba, 2 saídas de barco com lanche a bordo.<br />
                         <br />
@@ -92,7 +92,7 @@ const CoursesPage = ({ toogleShowDescription }) => {
                         <br />
                         bandagens e aplicação de talas para deslocamentos e fraturas. <br />
                         <br />
-                        Valor: R$450 em 2x sem juros + R$180 da credencial. <br />
+                        Valor: R$450 em 2x sem juros + R$220 da credencial. <br />
                         <br />
                         Inclui: material didático. <br />
                         <br />
@@ -131,7 +131,7 @@ const CoursesPage = ({ toogleShowDescription }) => {
                         dias<br />
                         saída de barco para realizar o check-out.<br />
                         <br />
-                        Valor: R$1.390 em 3x sem juros + R$180 da credencial.<br />
+                        Valor: R$1.390 em 3x sem juros + R$220 da credencial.<br />
                         <br />
                         Inclui: material didático, aluguel do equipamento scuba, 2 saídas de barco com lanche a bordo.<br />
                         <br />
@@ -150,7 +150,7 @@ const CoursesPage = ({ toogleShowDescription }) => {
 
                 <p className="subtitle" onClick={() => handleClick('hide6')}><u>Curso Dive Master</u></p>
                 <div id="hide6" style={{ display: 'none' }}>
-                    <p> Duração: 6 dias, seguidos ou não + estágio com acompanhamento de cursos e saídas.<br />
+                    <p> Duração: 8 dias, seguidos ou não + estágio com acompanhamento de cursos e saídas.<br />
                         <br />
                         Esse curso permitirá ao candidato que obtiver êxito a:<br />
                         - trabalhar em centros de mergulho locais, em embarcações para mergulho com hospedagem, iates e resorts
@@ -169,7 +169,7 @@ const CoursesPage = ({ toogleShowDescription }) => {
                         First Response<br />
                         <br />
                         Programação:<br />
-                        parte teórica + aplicação prática e habilidades<br />
+                        parte teórica + 6 saídas para auxiliar o instrutor + aplicação prática e habilidades<br />
                         <br />
                         Idade mínima permitida: 18 anos<br />
                         <br />
@@ -178,9 +178,9 @@ const CoursesPage = ({ toogleShowDescription }) => {
                         - ter certificação Advanced Open Water Diver<br />
                         - ter certificação Rescue Diver<br />
                         - atestado médico<br />
-                        - 20 mergulhos logados<br />
+                        - 40 mergulhos logados<br />
                         <br />
-                        Valor: R$2.350 + material didático = R$590 + work book R$65 + tabela eletrônica R$115 + aplicação US$110
+                        Valor: R$3.600 + aplicação US$150
                         (em
                         dólar)<br /></p>
                 </div>

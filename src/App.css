@@ -13,16 +13,19 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 html {
-  background-image: url(./assets/imgs/background.jpg);
+  background-color: #1f1f1f;
+}
+/* html {
+  background-image: url(./assets/imgs/background2.jpeg);  
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
   background-color: #000;
-}
+} */
 
 .header {
   display: flex;
@@ -35,26 +38,26 @@ html {
   padding-left: 50px;
   padding-top: 15px;
   text-decoration: none;
-  color: #2b2b2b;
+  color: #fff;
 }
 
 .email a {
   padding-left: 5px;
   text-decoration: none;
-  color: #2b2b2b;
+  color: #fff;
 }
 
 .tel {
   padding-left: 50px;
   padding-top: 15px;
-  color: #2b2b2b;
+  color: #fff;
 }
 
 .face {
   padding-left: 50px;
   padding-top: 15px;
   text-decoration: none;
-  color: #2b2b2b;
+  color: #fff;
 }
 
 .logo {
@@ -180,7 +183,7 @@ html {
 .footer {
   margin-top: 40px;
   padding-top: 10px;
-  background: #000;
+  border-top: 1px solid #fff;
   color: #fff;
   display: flex;
   flex-direction: row;
